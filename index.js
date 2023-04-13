@@ -58,7 +58,7 @@ const data = [{
 }]
 
 app.get('/',(req,res)=>{
-    res.send("Welcome to hall booking")
+    res.send("Welcome to hall booking \n use /all_rooms \n /all_rooms/available \n /all_rooms/new_room \n /rooms/available/:id urls for more actions")
 })
 
 app.get('/all_rooms',(req,res)=>{
